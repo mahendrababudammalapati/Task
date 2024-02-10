@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Eczar:wght@500&family=Inconsolata:wght@700;900&display=swap');
+.section1{
+   height: 10vh;
+   background-color: rgb(20, 58, 15);
+   /* position: -webkit-sticky;
+   position: sticky;
+   top: 0; */
+}
+.logo{
+    float: left;
+    width: 5vw;
+}
+.navbar{
+    text-align: right;
+    padding-top: 3vh;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2vw;
+    color: rgb(17, 234, 13);
+    font-family: sans-serif;
+}
+.link:hover{
+    color: red;
+}
+.section2{
+    height: 90vh;
+    background-image: url(basil-plant.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:transparent;
+}
+.text1{
+    color: white;
+    font-size: 5.8vw;
+    height:10vh ;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Eczar', serif;
+}
+.peragraph1{
+    color: white;
+    font-size: 30px;
+    opacity: 0.7;
+    font-family: sans-serif;
+}
+.button1{
+    width:12vw;
+    height: 5vh;
+    border-radius: 18px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    font-family: sans-serif;
+}
+.button1:hover{
+    background-color: greenyellow;
+    color: black;
+}
+body{
+    background-color: lightgray;
+}
+.section3{
+    margin-left: 9vw;
+    height: 142vh;
+}
+.card{
+    width: 380px;
+    height: 450px;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.card-image{
+    width: 380px;
+    height: 250px;
+}
+.card-content{
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+.card-button{
+    font-weight: bold;
+    font-size:15px;
+    margin-top: 10px;
+    background-color: rgb(38, 215, 38);
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgb(25, 200, 75);
+}
+.card-button:hover{
+    background-color: green;
+}
+.section4{
+    background-image: url(background2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.section4-text{
+    text-align: center;
+    padding-top: 140px;
+    font-family:  'Amatic SC', sans-serif;
+    font-family: 'Eczar', serif;
+}
+.head{
+    color: white;
+    font-size: 4vw;
+    line-height: 10px;
+}
+.peragraph{
+    color: white;
+    opacity: 0.6;
+    font-family: sans-serif;
+}
+.cards{
+    width: 380px;
+    height: 350px;
+    float: left;
+    background-color: white;
+    margin-left: 1.7vw;
+    margin-top: 30px;
+}
+.section5{
+    margin-left: 123px;
+    height: 800px;
+}
+.card-images{
+    width: 100px;
+    border-radius: 50px;
+}
+.card-content1{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.section6{
+    background-image: url(caroots.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    /* opacity: 0.9; */
+}
+/* .footer-background{
+    background-color: black;
+    height: 470px;
+} */
+.footer-div{
+    width: 20vw;
+    float: left;
+    margin-left: 4vw;
+    margin-top: 7vh;
+
+}
+.footer-head{
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+.footer-peragraph{
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.6;
+}
+.footer-points{
+    color: rgb(58, 244, 58);
+    font-family: sans-serif;
+}
+.input{
+    width: 250px;
+    margin-top: 30px;
+    height: 20px;
+    border-color: rgb(43, 239, 43);
+    background-color: rgb(210, 218, 210);
+}
+.fa{
+    width: 20px;
+    height: 17px;
+}
+.search-button{
+    background-color: green;
+}
+.search-button:hover{
+    background-color: greenyellow;
+}
+.copyright{
+    padding-top: 350px;
+    color: white;
+    padding-left: 40px;
+    font-family: sans-serif;
+}
+.footer-name{
+    color: rgb(17, 190, 234);
+}
+.date{
+    color: rgb(157, 242, 157);
+}
+.linkedin,.download,.github{
+    width: 40px;
+    border-radius: 35px;
+    margin-right:50px
+}
+.logos{
+    float: right;
+    margin-right: 60px;
+}
+@media screen and (max-width: 600px) {
+    .text-section{
+        width: 80vw;
+        margin-top: 30px;
+    }
+    .text1{
+        font-size: 8vw;
+    }
+    .peragraph1{
+        font-size: 5vw;
+    }
+    .section3{
+        margin-left: 4vw;
+        
+    }
+    .head{
+        font-size: 6vw;
+    }
+    .section5{
+        margin-left: 9vw;
+    }
+    .footer-div{
+        width: 80vw;
+    }
+    .section6{
+        background-image: url(background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 160vh;
+    }
+    .logo{
+        width: 14vw;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .button1{
+        width: 30vw;
+    }
+    .section3{
+        height: 425vh;
+        margin-left: 4vw;
+    }
+    .section5{
+        height: 335vh
+    }
+  }
